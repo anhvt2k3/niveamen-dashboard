@@ -1,25 +1,13 @@
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
-import { mockTransactions } from "../../data/mockData";
-import { BarChart } from "@mui/x-charts/BarChart";
-import { DonutFor2 } from '../../components/Donut'
-import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
 import CategoryIcon from '@mui/icons-material/Category';
 import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 import StoreIcon from '@mui/icons-material/Store';
-import EmailIcon from "@mui/icons-material/Email";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
-import PersonAddIcon from "@mui/icons-material/PersonAdd";
-import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../components/Header";
-import LineChart from "../../components/LineChart";
-import GeographyChart from "../../components/GeographyChart";
-import StatBox from "../../components/StatBox";
-import StatBoxFor2 from "../../components/StatBoxFor2";
 import BigStatBox from "./BigStatBox";
 import BigBarChart from "./BigBarChat";
 import { NiveaMenData } from '../../data/niveamen_sale'
-import ProgressCircle from "../../components/ProgressCircle";
 
 function convertCurrencyToInt(currencyStr) {
   // Remove any non-numeric characters except for the period (.) to handle decimals
